@@ -1,4 +1,18 @@
 TrophySite::Application.routes.draw do
+
+  match '/about', :to => 'pages#about'
+  match '/team', :to => 'pages#team'
+  match '/products', :to => 'pages#products'
+  root :to => 'pages#home'
+
+  # get "pages/home"
+
+  # get "pages/about"
+
+  # get "pages/team"
+
+  # get "pages/products"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
