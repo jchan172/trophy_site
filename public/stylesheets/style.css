@@ -1,5 +1,16 @@
 @charset "UTF-8";
+
 body {
+    font: 85%/0.9 arial, helvetica, sans-serif;
+    /*background-color: #472400; this is brown */
+    background-color: #000000;
+    line-height: 130%;
+    width: 100%;
+    min-width: 970px;
+    color: black;
+}
+/*
+ * body {
     margin: 0;
     padding: 0;
     color: #666666;
@@ -8,6 +19,7 @@ body {
     line-height: 1.4;
     background-color: #472400;
 }
+*/
 
 /* ~~ Element/tag selectors ~~ */
 ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
@@ -44,13 +56,15 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
     text-decoration: none;  
 }
 .wrapper {
-    background-color: #f9f9f9;
+    /*background-color: #f9f9f9;*/
+    background-color: #ffffff;
     width: 100%;
 }
 /* ~~ this fixed width container surrounds all other elements ~~ */
 .container {
     width: 1200px;
-    background: #f9f9f9;
+    /*background: #f9f9f9;*/
+    background: #ffffff;
     margin: 0 auto;
     padding-bottom: 100px;
 }
@@ -103,7 +117,7 @@ h4 {
     margin-right: 0;
 }
 #columnRight {
-    margin-left: 234px;
+    margin-left: 0px;
 }
 .home #columnRight {
     margin-bottom: -20px;
@@ -111,7 +125,7 @@ h4 {
 #menu {
     list-style-type: none;
     padding-top: 23px;
-    margin-left: 144px;
+    margin-left: 464px;
 }
 #menu li {
     float: left;
@@ -133,7 +147,7 @@ h4 {
     font-size: 12px;
 }
 #mainLeft {
-    width: 280px;
+    width: 400px;
     font-size: 16px;
     float: left;
 }
@@ -162,7 +176,7 @@ h4 {
     margin-bottom: 60px;
 }
 #mainRight {
-    margin-left: 293px;
+    margin-left: 500px;
 }
 .home #mainRight {
     padding-left: 40px;
@@ -264,7 +278,8 @@ h4 {
 }
 input {width:250px;
     height: 12px;
-    padding: 5px;
+    /*padding: 5px;*/
+    padding: 0px;
 }
 .submit {
     background-image: url(../images/submit.jpg);
@@ -290,7 +305,7 @@ input {width:250px;
     font-style: italic;
 }
 label {
-    background: black no-repeat;
+    /*background: black no-repeat;*/
     color: #ddd;
     font-size: 12px;
     padding: 5px 10px 4px;

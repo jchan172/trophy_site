@@ -1,7 +1,7 @@
 TrophySite::Application.routes.draw do
 
+  match '/home/', :to => 'pages#home'
   match '/about', :to => 'pages#about'
-  match '/team', :to => 'pages#team'
   match '/products', :to => 'pages#products'
   root :to => 'pages#home'
 
