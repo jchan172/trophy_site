@@ -66,7 +66,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
     /*background: #f9f9f9;*/
     background: #ffffff;
     margin: 0 auto;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
 }
 
 /* ~~ This is the layout information. ~~ 
@@ -119,6 +119,9 @@ h4 {
 #columnRight {
     margin-left: 0px;
 }
+#aboutColumnRight {
+    margin-left: 234px;
+}
 .home #columnRight {
     margin-bottom: -20px;
 }
@@ -163,12 +166,17 @@ h4 {
 .about #main {
     margin-top: 27px;
 }
+.about #outerLeft {
+    width: 700px;
+    font-size: 14px;
+    float: left;
+    margin-top: 0px;
+}
 .about #mainLeft {
     width: 263px;
     font-size: 14px;
     float: left;    
     margin-top: 32px;
-
 }
 #mainLeft .text {
     margin-top: 20px;
@@ -181,6 +189,9 @@ h4 {
 .home #mainRight {
     padding-left: 40px;
 }
+.about #outerRight {
+    margin-left: 850px;
+}
 .about #mainRight {
     margin-left: 254px;
 }
@@ -188,12 +199,13 @@ h4 {
     padding-top: 30px;
 }
 .about .columnLeft {
-    float: left;
+    float: none;
+    padding-left: 30px;
     padding-right: 50px;
     font-size: 13px;
-    width: 320px;
+    width: 400px;
     padding-top: 0;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
 }
 .about .columnRight {
     float: left;
