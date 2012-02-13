@@ -3,3 +3,5 @@ db/*.sqlite3
 log/*.log
 tmp/
 doc/img_originals/
+doc/Sliding_login_panel_jquery.zip
+.DS_Store
